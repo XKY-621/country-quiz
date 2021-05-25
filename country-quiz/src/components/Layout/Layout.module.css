@@ -1,0 +1,6 @@
+.container {
+    padding:24px;
+    height: 100hv;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
