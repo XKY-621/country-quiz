@@ -1,0 +1,53 @@
+.answer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.answerButton {
+  flex: 1;
+  border: none;
+  background-color: transparent;
+  font-family: var(--font-family);
+  font-size: 18px;
+  color: rgba(96, 102, 208, 0.7);
+  border: 2px solid rgba(96, 102, 208, 0.7);
+  border-radius: 12px;
+  width: 400px;
+  min-height: 56px;
+  margin-bottom: 31px;
+}
+.correctAnswer {
+  flex: 1;
+  border: none;
+  background-color: #60bf88;
+  font-family: var(--font-family);
+  font-size: 18px;
+  color: rgba(253, 253, 253, 0.7);
+  border: 2px solid #60bf88;
+  border-radius: 12px;
+  width: 400px;
+  min-height: 56px;
+  margin-bottom: 31px;
+}
+.wrongAnswer {
+  flex: 1;
+  border: none;
+  background-color: #ea8282;
+  font-family: var(--font-family);
+  font-size: 18px;
+  color: rgba(253, 253, 253, 0.7);
+  border: 2px solid #ea8282;
+  border-radius: 12px;
+  width: 400px;
+  min-height: 56px;
+  margin-bottom: 31px;
+}
+.answerButton:hover {
+  color: var(--primary-color);
+  background-color: #f9a826;
+  border: 2px solid #f9a826;
+  box-shadow: 0px 2px 4px rgba(31, 31, 31, 0.4);
+  cursor: pointer;
+}

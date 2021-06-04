@@ -1,0 +1,83 @@
+.wrapper {
+  background-color: #ffffff;
+  border-radius: 24px;
+  width: 464px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapperCenter {
+  background-color: #ffffff;
+  border-radius: 24px;
+  width: 464px;
+  height: 559px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.question {
+  margin-left: 32px;
+  margin-right: auto;
+  font-weight: 700;
+  color: var(--text-color);
+  background-color: transparent;
+}
+.nextButton {
+  background: #f9a826;
+  font-family: var(--font-family);
+  font-weight: 700;
+  color: #ffffff;
+  box-shadow: 0px 2px 4px rgba(252, 168, 47, 0.4);
+  border-radius: 12px;
+  width: 116px;
+  height: 56px;
+  align-items: right;
+  margin-right: 32px;
+}
+.restartButton {
+  background: transparent;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--text-color);
+  border: 2px solid var(--text-color);
+  box-shadow: 0px 2px 4px rgba(114, 114, 114, 0.4);
+  border-radius: 12px;
+  min-width: 210px;
+  min-height: 56px;
+  align-items: right;
+}
+.restartButton:hover {
+  background: var(--text-color);
+  color: var(--primary-color);
+  cursor: pointer;
+}
+.nextButton:hover {
+  background: #fcbe5b;
+  cursor: pointer;
+}
+.normalText {
+  font-weight: 300;
+  font-size: 18px;
+}
+.pointsText {
+  font-weight: 700;
+  color: #60bf88;
+  font-size: 36px;
+}
+.container2 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.space {
+  flex-grow: 3;
+}
+.adventureImg {
+  margin-left: auto;
+  min-height: 150px;
+  z-index: 99;
+}

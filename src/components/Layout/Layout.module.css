@@ -1,0 +1,22 @@
+.container  {
+  padding: 24px;
+  height: 100hv;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+.main {
+  height: 100%;
+  margin-top: 250px;
+}
+.corps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+}
