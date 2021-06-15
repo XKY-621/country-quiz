@@ -70,7 +70,6 @@ const QuestionBlock = ({ questions, generateQuestion }) => {
           isQuestion={false}
         />
         <div className={styles.container2}>
-          <div className={styles.space}></div>
           <button className={styles.nextButton} onClick={() => nextQuestion()}>
             <div>Next</div>
           </button>

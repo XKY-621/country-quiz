@@ -33,7 +33,6 @@ const Layout = ({ title = "Country Quiz !", countries }) => {
         countries[numbers[randomAnswer]].capital;
       listQuestion[i]["listAnswer"] = [{}, {}, {}, {}];
       for (var j = 0; j < 4; j++) {
-        //console.log(countries[numbers[j]].name);
         listQuestion[i]["listAnswer"][j]["nameCountry"] =
           countries[numbers[j]].name;
         let isCorrect = false;
